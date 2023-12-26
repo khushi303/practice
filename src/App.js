@@ -3,6 +3,7 @@ import './App.css';
 import Homepage from './pages/Homepage';
 import Aboutpage from './pages/Aboutpage';
 import Contactpage from './pages/Contactpage';
+import Mappage from './pages/Mappage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path='/' exact element={<Homepage />}></Route>
         <Route path='/Aboutpage' exact element={<Aboutpage />}></Route>
         <Route path='/Contactpage' exact element={<Contactpage />}></Route>
+        <Route path='/Mappage' exact element={<Mappage />}></Route>
       </Routes>
     </div>
   );

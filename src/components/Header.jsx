@@ -9,8 +9,8 @@ const Header = () => {
                 <div className='d-flex gap-3'>
                     <Link className='text-white fw-medium' to="/Aboutpage">About</Link>
                     <Link className='text-white fw-medium' to="/Contactpage">Contact</Link>
+                    <Link className='text-white fw-medium' to="/Mappage">Mappage</Link>
                 </div>
-             
             </div>
         </div>
     )
