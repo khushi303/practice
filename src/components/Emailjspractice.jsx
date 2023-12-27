@@ -22,7 +22,6 @@ const Emailjspractice = () => {
                 console.log(error.text);
             });
     };
-
     return (
         <div>
             <div className='container'>
